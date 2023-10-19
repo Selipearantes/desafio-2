@@ -1,0 +1,118 @@
+*{ font-family: 'Oswald';
+   margin: 0px; 
+   padding: 0px;
+   box-sizing: border-box; }
+
+#wrapper { height: 100vh;
+           width: 100vw; }
+
+h1{ font-size: 70px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+    color: #5D5D7D;
+    margin-top: 18%;
+    width: 368px; }
+ 
+p { font-size: 28px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 48px;
+    color: #5d5d7d;
+    margin-top: 15px;
+    width: 540px;
+    height: 144px;
+    opacity: 0.6; }
+
+button { color: aliceblue;
+        font-size: 20px;
+        width: 269px;
+        height: 62px;
+        background-color: rgba(148, 153, 234, 1);
+        border-radius: 30px;
+        border: none;
+        margin-top: 12%;
+        cursor: pointer;}
+        button:hover { opacity: 0.8;}
+        button:after { opacity: 0.3;}
+
+.container-left{ display:inline-block;
+                 width: 60%;
+                 padding-left: 136px;
+                 margin-top:100px ;}
+    
+                
+                    
+                 
+
+.container-right { display: inline-block;
+                   background-color: rgba(93, 93, 125, 0.16); 
+                   height: 100vh;
+                   width: 40%;
+                   position: absolute; }
+
+header { margin-top: 24px ;
+         margin-left: 100px;
+         font-size: 28px;
+         color: #5D5D7D;
+         cursor: pointer; } 
+      
+        .header { margin-left: 41px;}
+        a:nth-child(2) { opacity: 0.5;}
+        a:hover { opacity:  0.2;}
+
+img { position: relative;
+      top: 20%;
+      right: 130px;}
+
+
+@media screen and (max-width:900px) 
+    {
+     .container-left 
+      { width:100%;
+        height:50%;
+        padding:0px;
+        margin:0px; }
+        
+     .container-right
+       { display: block;
+         height: auto;
+         width: 100%;
+         position: static;
+         padding: 70px;
+         margin-top: -70px;
+        } 
+                   
+    
+    img { position:static; max-width: 110%;
+    } 
+    
+    .header { display: none;}
+
+    h1 {
+        font-size: 40px;
+        font-weight: 400px;
+        line-height: 52px;
+        width: 268px;
+        margin: 50px auto 15px;
+        text-align: center;
+        }
+
+    p {
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 296px;
+    height: 96px;
+
+    margin: auto;
+    opacity: 0.6px;
+    }
+    
+
+        
+     button{ margin: 15px auto auto auto;
+             display:block;}
+}
